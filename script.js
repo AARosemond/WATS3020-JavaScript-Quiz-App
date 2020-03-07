@@ -13,6 +13,7 @@ nextButton.addEventListener('click', () => {
 })
 
 function startGame() {
+    console.log('Started')
     startButton.classList.add('hide')
     shuffleQuestions = questions.sort(() => Math.random() = .5)
     currentQuestionIndex = 0
@@ -110,7 +111,7 @@ const questions = [{
 },{
     question: 'What command allows you to break apart a String into an Array based on a chosen character?',
     answers: [{
-            text: 'scowl()',
+            text: 'spicy_scowl()',
             correct: false
         },
         {
@@ -133,7 +134,7 @@ const questions = [{
             correct: false
         },
         {
-            text: 'flash! Ah-ah, Savior of the universe',
+            text: 'Flash! Ah-ah, Savior of the universe',
             correct: false
         }
     ]
@@ -163,7 +164,7 @@ const questions = [{
             correct: true
         },
         {
-            text: 'splice',
+            text: 'splice()',
             correct: false
         }
     ]
