@@ -169,4 +169,19 @@ const questions = [{
             correct: false
         }
     ]
+},{
+    question: 'If let a = {}; and let b = [];, which statement is true?',
+    answers: [{
+            text: 'a is an Array and b is an Object.',
+            correct: false
+        },
+        {
+            text: 'a is a String and b is an Object.',
+            correct: false
+        },
+        {
+            text: 'a is an Object and b is an Array.',
+            correct: true
+        }
+    ]
 }]

@@ -9,6 +9,11 @@
     --hue-correct: 145;
 }
 
+header {
+    padding: 20px;
+    color: white;
+}
+
 body {
     --hue: var(--hue-neutral);
     padding: 0;
